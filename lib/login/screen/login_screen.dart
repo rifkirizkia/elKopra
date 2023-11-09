@@ -90,7 +90,7 @@ class _LoginScreenState extends State<LoginScreen> {
               width: double.infinity,
               height: 42,
               child: TextField(
-                controller: emailController,
+                controller: passwordController,
                 decoration: InputDecoration(
                   fillColor: Colors.white,
                   border: OutlineInputBorder(
